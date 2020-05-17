@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js" defer></script>
+
+    <!-- Links -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Francisco Campos</title>
+</head>
+
+<body>
+         
+    <!--nav bar-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a href="#bg_size" class="navbar-brand">
+                    <img src="img/inicio.png" width="30" class="d-inline-block align-top mr-2" alt="inicio">
+                    Inicio
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#secondNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="secondNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link mr-2" href="programming.html">Programación</a></li>
+                        <li class="nav-item"><a class="nav-link mr-2" href="chemistry.html">Química</a></li>
+                        <li class="nav-item"><a class="nav-link mr-2" href="astronomy.html">Astronomía</a></li>
+                        <li class="nav-item"><a class="nav-link mr-2" href="#comments">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1"
+                                aria-disabled="true">Disabled</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+ 
+    <main>
+
+        <!--main page-->
+        <section id="bg_size" class="row justify-content-center mt-5 main_bg">
+
+            <div class="header-content-left col-5 col-sm-5 col-md-4 col-lg-3 align-self-center">
+                <img src="img/chemist.jpeg" class="img-fluid chemist" alt="Chemist image">
+            </div>
+
+            <div class="header-content-right col-8 col-sm-5 col-md-6 col-lg-6 align-self-center">
+                <h1 class="title_h1"><strong>Página web de Francisco Campos</strong></h1>
+                <hr class="hr-dark">
+                <h2 class="title_h2">Gracias por visitarme</h2>
+            </div>
+        </section>
+
+        <!--about me-->
+        <section id="about" class="bg-dark mb-4 pt-3 pb-3 text-light">
+            <div class="container">
+                <h2>Un poco sobre mí</h2>
+                <p class="text-justify">Soy un químico con una dilatada experiencia en <strong>Síntesis
+                        Orgánica</strong> y en sus técnicas de análisis asociadas. Además, tengo conocimientos en el
+                    área de programación, especialmente en el lado servidor. Y me apasiona la Astronomía, afición que me
+                    cautivó desde bien jovencito.</p>
+            </div>
+        </section>
+
+        <!--themes-->
+        <section id="areas" class="container row justify-content-around appear">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <br><br>
+                <a href="programming.html"><img class="img-fluid pictures" alt="Responsive image"
+                        src="img/programming.jpeg" alt="computer programming"></a>
+                <br><br>
+                <h2 class="text-center text-truncate">Programación</h2>
+                <p class="text-justify">Aquí podrás acceder a los links donde he colgado algunos programas de mi etapa
+                    de reconversión al área IT.</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <br><br>
+                <a href="chemistry.html"><img class="img-fluid pictures" alt="Responsive image" src="img/molecule.jpeg"
+                        alt="molecule"></a>
+                <br><br>
+                <h2 class="text-center text-truncate">Química</h2>
+                <p class="text-justify">En esta sección podrás conocer mejor los proyectos en los que he trabajado a lo
+                    largo de mi vida profesional</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <br><br>
+                <a href="http://puigdagullesobservatory.blogspot.com/p/el-observatorio_3.html" target="blank_"><img class="img-fluid pictures" alt="Responsive image" src="img/astronomy.jpeg"
+                        alt="galaxy"></a>
+                <br><br>
+                <h2 class="text-center">Astronomía</h2>
+                <p class="text-justify">Blog de mi modesto observatorio astronómico y algunas cosas que he ido haciendo (Aviso: no está actualizado).</p>
+            </div>
+        </section>
+
+        <!--Comments -->
+        <section id="comments" class="bg-dark">
+            <div class="container">
+                <br>
+                <h4 class="text-light">¿Mas información?</h4>
+                <br>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="">
+                <!--div class="col-md-5">
+                    <form class="card my-4">
+                        <div class="card-body">
+                            <form method="POST" action="mailto:francamcu@yahoo.es">
+                                <div class="form-group">
+                                    <input type="text" placeholder="name" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <textarea rows="10" cols="30" placeholder="Message" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline-secondary btn-block">Send</button>
+                            </form>                         
+                        </div>
+                    </form>
+                </div-->
+                <br>
+                <div class="row">
+                    <h3 class="">Visita mi perfil completo en </h3>
+                    <a class="" href="https://www.linkedin.com/in/franciscocampos/" target="_blank"><img style="width: 40%; margin: 5px 0px 0px 10px" src="img/linkedin largo.png" alt="linkedin link"></a>
+                </div>
+                <br>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+<!--Footer-->
+<footer id="contact">
+    <div class="container">
+        <small>&#169 All rights reserved</small>
+    </div>
+</footer>
+
+<script src="/BootstrapFiles/jquery-3.3.1.js"></script>
+<script src="/BootstrapFiles/popper-2.3.3.js"></script>
+<script src="/BootstrapFiles/bootstrap.js"></script>
+
+</html>
